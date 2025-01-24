@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class HelloWorld {
+    static int return_num(int n){
+      return n+3;  
+    }
+    public static void main(String[] args) {
+        Scanner input=new Scanner(System.in);
+         System.out.println("Enter any number");
+        int num=input.nextInt();
+        System.out.println(return_num(num));
+         
+    }
+}
+

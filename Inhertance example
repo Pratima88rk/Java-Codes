@@ -1,0 +1,40 @@
+//iheritane
+import java.util.Scanner;
+class Main{
+    public static void main(String[] args) {
+        Math obj=new Math();
+        obj.subject1();
+        Scanner scano=new Scanner(System.in);
+        int num=scano.nextInt();
+        obj.reason(num);
+    }
+}
+class Physics{
+void subject1(){
+        System.out.println("It requires other subjects help, like math and chemistry");
+         System.out.println("enter 1 to know reason for math and 2 for chemistry");
+        
+    } 
+    void reason(int x){
+        if(x==1){
+            Math obj1=new Math();
+          System.out.println(obj1.getAnsm()); 
+    }
+           else if(x==2){
+            Chemistry  obj1=new Chemistry ();
+          System.out.println(obj1.getAnsc()); 
+    }
+    else{
+         System.out.println("not given");
+    }
+}}
+class Math extends Physics{
+  private String ansm="Math for derivative solution.";
+  public String getAnsm(){
+    return ansm;}
+}
+class Chemistry extends Physics{
+     String ansc="Chemistry for gas equation.";
+       public String getAnsc(){
+    return ansc;}
+}

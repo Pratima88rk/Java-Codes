@@ -1,0 +1,15 @@
+// program to find factorial of number of any number using recursion
+import java.util.Scanner;
+class Main {
+    
+    public static void main(String[] args) {
+        Scanner scano=new Scanner(System.in);
+        System.out.println("Enter any number ");
+        int number=scano.nextInt();
+       int i=0,fact=1;
+       for(i=number;i>1;i--){
+          fact=fact*i; 
+       }
+       System.out.println("factorial of number "+number +" is "+fact);
+    }
+}

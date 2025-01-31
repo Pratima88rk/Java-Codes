@@ -1,4 +1,4 @@
-// program to find factorial of number of any number using recursion
+// program for finding factorial of number of any number 
 import java.util.Scanner;
 class Main {
     

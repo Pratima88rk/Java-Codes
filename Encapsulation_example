@@ -1,0 +1,39 @@
+//Write a java program to create a class called person with private instancces variable name ,age and country provide public getter and setter methods to acess and modify these variables.
+class Person{
+    private String Name="Pratima";
+    private int age=17;
+    private String country;
+    
+    public String getName(){
+        return Name ;
+    }
+    public void setName(String uName){
+        this.Name=uName;
+    }
+      public String getCountry(){
+        return country;
+    }
+    public void setCountry(String ucountry){
+        this.country=ucountry;
+    }
+      public int getAge(){
+        return age;
+    }
+    public void setAge(int uage){
+        this.age=uage;
+    }
+}
+class Main{
+    public static void main(String[] args){
+        Person access=new Person();
+        access.setName("Jaya Kishori");
+        System.out.println("Name is "+access.getName());
+        access.setAge(30);
+         System.out.println("Age is "+access.getAge());
+        access.setCountry("India");
+        System.out.println("Country name is "+ access.getCountry());
+        
+        
+        
+    }
+}

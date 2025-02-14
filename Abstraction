@@ -1,0 +1,16 @@
+//abstraction
+abstract class Animal{
+    public void animal_noise(){
+        System.out.println("This is from animal class");
+    }
+}
+//unsheilding the abstract Animal class by extending
+class Dog extends Animal{
+   
+}
+class Main {
+    public static void main(String[] args) {
+        Dog obj=new Dog();
+       obj.animal_noise();
+    }
+}

@@ -1,0 +1,31 @@
+// Polymorphism
+class Computer{
+    private int price=500;
+    public void work(){
+       System.out.println("Many work"); 
+    }
+}
+class Calculator extends Computer{
+   public void work(){
+       System.out.println("to calculate"); 
+    } 
+}
+class Radio extends Computer{
+   public void work(){
+       System.out.println("to broadcast song, news"); 
+    } 
+}
+class Main {
+    public static void main(String[] args) {
+        Computer obj=new Computer();
+        System.out.print("Computer is used to do");
+        obj.work();
+        Computer obj1=new Calculator();
+         System.out.print("Calculator is used ");
+          obj1.work();
+        Computer obj2=new Radio();
+        System.out.print("Radio is used ");
+         obj2.work();
+        
+    }
+}

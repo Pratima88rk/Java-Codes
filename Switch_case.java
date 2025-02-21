@@ -18,6 +18,10 @@ class Main {
             case 10:
                  System.out.print("Sima Sah and Mahadev Sah\b");
                 break;
+   case 12:
+                 System.out.print("Pratima sah\b");
+                break;
+
                 
         }
          System.out.println("studies in "+standard);

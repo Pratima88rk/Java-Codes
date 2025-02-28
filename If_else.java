@@ -1,10 +1,10 @@
 public class Main {
   public static void main(String[] args) {
-    if (20 > 18) {
-      System.out.println("20 is greater than 18"); // obviously
+    if (15 > 18) {
+      System.out.println("15 is greater than 18"); // obviously
     }  
 else{
-System.out.println("20 is not greater than 18");
+System.out.println("15 is not greater than 18");
 }
   }
 }

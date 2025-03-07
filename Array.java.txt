@@ -1,0 +1,9 @@
+// Array
+class Main {
+    public static void main(String[] args) {
+        //Initialising array and Declaring array
+        int[] numarray={4,8,9,2,0};
+        System.out.println("num at index position 2 in numarray is "+numarray[2]);
+         System.out.println("num at index position 0 in numarray is "+numarray[0]);
+    }
+}

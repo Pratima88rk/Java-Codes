@@ -14,5 +14,12 @@ class Main {
 //second method to print array using Arrays.toString() from Arrays file            
             System.out.println(Arrays.toString(names));
        
+
+// Also sorting of int array
+int[] array1 ={2,9,6,4,7};
+Arrays.sort(array1);
+ System.out.println("sorted int  array is ;");
+for(int i=0;i<array1.length;i++){
+ System.out.println(array1[i]);}
     }
 }
